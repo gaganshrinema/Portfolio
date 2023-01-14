@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.954" height="53.301" viewBox="0 0 54.954 53.301">
+  <g id="mobile" transform="translate(0 -0.826)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="1" cy="1" r="1" transform="translate(44.021 24.976)" fill="#20c997"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="1" cy="1" r="1" transform="translate(8.021 24.976)" fill="#20c997"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="1" cy="1" r="1" transform="translate(11.021 27.976)" fill="#20c997"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="1" cy="1" r="1" transform="translate(17.021 27.976)" fill="#20c997"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="1" cy="1" r="1" transform="translate(14.021 30.976)" fill="#20c997"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="1" cy="1" r="1" transform="translate(20.021 30.976)" fill="#20c997"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="1" cy="1" r="1" transform="translate(23.021 33.976)" fill="#20c997"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="1" cy="1" r="1" transform="translate(29.021 33.976)" fill="#20c997"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="1" cy="1" r="1" transform="translate(32.021 30.976)" fill="#20c997"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="1" cy="1" r="1" transform="translate(26.021 36.976)" fill="#20c997"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="1" cy="1" r="1" transform="translate(35.021 27.976)" fill="#20c997"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="1" cy="1" r="1" transform="translate(41.021 27.976)" fill="#20c997"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="1" cy="1" r="1" transform="translate(38.021 30.976)" fill="#20c997"/>
+    <path id="Path_2" data-name="Path 2" d="M45.559,32.8l9.394-5.367L45.3,21.946l9.656-5.517L27.477.826,0,16.429l9.656,5.517L0,27.429l9.656,5.517L0,38.429l27.477,15.7,27.477-15.7L45.3,32.946l.071-.041A.944.944,0,0,0,45.559,32.8ZM27.477,3.125,50.913,16.434,43.276,20.8h0l-15.8,9.026L4.041,16.434ZM11.129,23.409a.986.986,0,0,0,1.584.284l2.262,1.292a1,1,0,1,0,1.046.991.974.974,0,0,0-.132-.469l10.33,5.9a.973.973,0,0,0-.2.567,1,1,0,0,0,2,0,.863.863,0,0,0-.029-.143L38.044,26.09a.988.988,0,0,0,.977.885,1,1,0,0,0,1-1,.979.979,0,0,0-.406-.783l2.2-1.258a.934.934,0,0,0,.2.041.989.989,0,0,0,.938-.694l.32-.183,7.634,4.335L48.93,28.566a1,1,0,0,0-1.908.409.974.974,0,0,0,.2.568L43.276,31.8h0l-6.388,3.65a.973.973,0,0,0,.134-.472,1,1,0,1,0-1.043.991l-2.263,1.293a1,1,0,0,0-1.694.716.955.955,0,0,0,.046.226l-4.59,2.622-5.517-3.152a.989.989,0,0,0-.939-.7.942.942,0,0,0-.206.042l-2.2-1.257a.982.982,0,0,0,.407-.784,1,1,0,0,0-1-1,.989.989,0,0,0-.977.887L6.991,29.12a.9.9,0,0,0-.971-1.144.979.979,0,0,0-.621.235L4.04,27.435ZM50.912,38.434,27.476,51.824,4.041,38.434,11.674,34.1l15.8,9.028,15.8-9.028Z" fill="#20c997"/>
+  </g>
+</svg>
