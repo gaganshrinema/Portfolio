@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="138" viewBox="0 0 93 138">
+  <g id="A5_Size" data-name="A5 Size" transform="translate(-110 -721)">
+    <g id="Rectangle_4705" data-name="Rectangle 4705" transform="translate(110 721)" fill="#fff" stroke="#8f9bb3" stroke-width="1">
+      <rect width="93" height="138" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="137" rx="3.5" fill="none"/>
+    </g>
+    <g id="Group_9069" data-name="Group 9069" transform="translate(119.112 835.683)">
+      <line id="Line_71" data-name="Line 71" x2="74.924" transform="translate(0 0)" fill="none" stroke="#8f9bb3" stroke-linecap="round" stroke-width="4"/>
+      <line id="Line_72" data-name="Line 72" x2="51.672" transform="translate(11.885 9.301)" fill="none" stroke="#8f9bb3" stroke-linecap="round" stroke-width="4"/>
+    </g>
+    <g id="Group_9070" data-name="Group 9070" transform="translate(119.112 769.298)">
+      <line id="Line_71-2" data-name="Line 71" x2="74.924" transform="translate(0 0)" fill="none" stroke="#8f9bb3" stroke-linecap="round" stroke-width="4"/>
+      <line id="Line_72-2" data-name="Line 72" x2="51.672" transform="translate(11.885 9.301)" fill="none" stroke="#8f9bb3" stroke-linecap="round" stroke-width="4"/>
+    </g>
+    <g id="logo" transform="translate(125.366 739.223)">
+      <text id="company_LOGO" data-name="company LOGO" transform="translate(15.719 8.923)" fill="#8f9bb3" font-size="6" font-family="Raleway-Black, Raleway" font-weight="800"><tspan x="0" y="0">COMPANY LOGO</tspan></text>
+      <g id="Polygon_2" data-name="Polygon 2" transform="translate(-0.366 0.777)" fill="#c9ced9">
+        <path d="M 14.09787559509277 11.5 L 0.9021254777908325 11.5 L 7.500000476837158 0.9434000253677368 L 14.09787559509277 11.5 Z" stroke="none"/>
+        <path d="M 7.500000476837158 1.886799812316895 L 1.804250717163086 11 L 13.19575023651123 11 L 7.500000476837158 1.886799812316895 M 7.500000476837158 0 L 15 12 L 9.5367431640625e-07 12 L 7.500000476837158 0 Z" stroke="none" fill="#222b45"/>
+      </g>
+      <g id="Polygon_3" data-name="Polygon 3" transform="translate(13.634 10.777) rotate(180)" fill="#fff">
+        <path d="M 12.12378215789795 10.5 L 0.8762181997299194 10.5 L 6.5 0.9828307628631592 L 12.12378215789795 10.5 Z" stroke="none"/>
+        <path d="M 6.5 1.965688705444336 L 1.75245189666748 10 L 11.24754810333252 10 L 6.5 1.965688705444336 M 6.5 0 L 13 11 L 0 11 L 6.5 0 Z" stroke="none" fill="#8f9bb3"/>
+      </g>
+    </g>
+    <g id="qr-code" transform="translate(137.335 788.376)">
+      <path id="Path_11683" data-name="Path 11683" d="M0,0V17.672H17.672V0ZM15.147,15.147H2.524V2.524H15.147V15.147Z" fill="#8f9bb3"/>
+      <rect id="Rectangle_4706" data-name="Rectangle 4706" width="7.574" height="7.574" transform="translate(5.049 5.049)" fill="#8f9bb3"/>
+      <path id="Path_11684" data-name="Path 11684" d="M278.261,0V17.672h17.672V0Zm15.147,15.147H280.785V2.524h12.623Z" transform="translate(-257.223)" fill="#8f9bb3"/>
+      <rect id="Rectangle_4707" data-name="Rectangle 4707" width="7.574" height="7.574" transform="translate(26.087 5.049)" fill="#8f9bb3"/>
+      <path id="Path_11685" data-name="Path 11685" d="M0,278.261v17.672H17.672V278.261Zm15.147,15.147H2.524V280.785H15.147v12.623Z" transform="translate(0 -257.223)" fill="#8f9bb3"/>
+      <rect id="Rectangle_4708" data-name="Rectangle 4708" width="7.574" height="7.574" transform="translate(5.049 26.087)" fill="#8f9bb3"/>
+      <path id="Path_11686" data-name="Path 11686" d="M278.261,278.261v17.672h5.049v-2.525h-2.525v-5.049h2.525v-2.525h-2.525v-5.049h2.525v-2.525Z" transform="translate(-257.223 -257.223)" fill="#8f9bb3"/>
+      <rect id="Rectangle_4709" data-name="Rectangle 4709" width="2.524" height="2.524" transform="translate(36.185 21.038)" fill="#8f9bb3"/>
+      <path id="Path_11687" data-name="Path 11687" d="M447.742,365.431h-2.525v2.525h5.049V356.174h-2.524Z" transform="translate(-411.557 -329.246)" fill="#8f9bb3"/>
+      <rect id="Rectangle_4710" data-name="Rectangle 4710" width="5.049" height="2.524" transform="translate(28.611 21.038)" fill="#8f9bb3"/>
+      <path id="Path_11688" data-name="Path 11688" d="M383.484,350.092h-2.525v-2.525h2.525v-2.525h-5.049v7.574h5.049Z" transform="translate(-349.824 -318.956)" fill="#8f9bb3"/>
+      <rect id="Rectangle_4711" data-name="Rectangle 4711" width="2.524" height="2.524" transform="translate(28.611 36.185)" fill="#8f9bb3"/>
+    </g>
+  </g>
+</svg>

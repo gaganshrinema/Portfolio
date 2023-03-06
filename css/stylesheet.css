@@ -3785,12 +3785,6 @@ input:-internal-autofill-selected {
   border-radius: 4px 0px 0px 4px;
 }
 
-@media (max-width: 575.98px) {
-  .hero-wrap .hero-bg {
-    background-attachment: initial !important;
-    background-position: center center !important;
-  }
-}
 
 img {
   max-width: 100%;
@@ -3912,4 +3906,15 @@ ul.footer_bottom_link li:last-child{
 
 .portfolio_section {
   padding: 120px 0;
+}
+
+@media (max-width: 575.98px) {
+  .hero-wrap .hero-bg {
+    background-attachment: initial !important;
+    background-position: center center !important;
+  }
+
+  .logo_section {
+    column-count: 1;
+  }
 }

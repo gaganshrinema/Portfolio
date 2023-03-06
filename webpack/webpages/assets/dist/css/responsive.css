@@ -1,0 +1,433 @@
+@media (max-width: 1440.98px) {
+  .p-fix {
+    right: 0;
+  }
+  .overlay .closebtn {
+    right: 20px;
+  }
+  .nav-toggle {
+    padding: 0px 20px;
+  }
+  .main-heading {
+    height: 100px;
+  }
+  .astrology .card img {
+    width: 80px;
+  }
+  .astrology .card h6 {
+    font-size: 18px;
+  }
+  .astrology .card p.card-text {
+    font-size: 14px;
+  }
+  .nav-heading {
+    font-size: 50px;
+  }
+  .nav-toggle {
+    font-size: 30px;
+  }
+  .main-heading {
+    font-size: 26px;
+  }
+  .main-heading {
+    padding: 155px 0px 80px;
+  }
+}
+
+@media (max-width: 1200.98px) {
+  .horoscope {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .contact {
+    right: auto;
+  }
+  .section-box {
+    display: none;
+  }
+  .contact .card .cardImg,
+  .contact .card {
+    height: auto;
+  }
+}
+@media (max-width: 768.98px) {
+  .zoom-wrapper,
+  .zoominheader,
+  .zoomoutheader,
+  .main-wrapper {
+    animation: none;
+    -webkit-animation: none;
+  }
+  .p-fix {
+    right: 0;
+    top: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .pt-160 {
+    padding-top: 60px;
+  }
+  .nav-heading {
+    font-size: 40px;
+  }
+  .ml-12 {
+    margin-left: auto;
+  }
+  .slick-slide {
+    margin: auto;
+  }
+  .counseling .container {
+    padding: 30px;
+  }
+  .btn-paypal {
+    width: 90%;
+    margin: 10px 50px;
+    flex: auto;
+  }
+  .myBook h1 {
+    font-size: 50px;
+  }
+  .about-history {
+    padding: 10px 0px;
+  }
+  .year-tag {
+    margin-top: 10px;
+  }
+  .btn-floating{
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+  }
+  .slick-prev:before, .slick-next:before{
+    color: #f89200;
+  }
+  .slick-next{
+    right: -45px;
+  }
+  .slick-prev{
+    left: -45px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .astrology .slick-prev,.astrology .slick-next{
+    top: 102%;
+  }
+  .astrology .slick-prev:before,.astrology .slick-next:before{
+    font-size:40px;
+  }
+  .astrology .slick-next{
+    right: 40%;
+  }
+  .astrology .slick-prev{
+    left: 40%;
+  }
+  .slick-prev:before, .slick-next:before{
+    font-size: 30px;
+  }
+  .slick-next{
+    right: 20px;
+    z-index: 9;
+  }
+  .slick-prev{
+    left: 10px;
+    z-index: 9;
+  }
+  .cover-section h1 {
+    font-size: 80px;
+  }
+  .cover-section h6 {
+    font-size: 18px;
+  }
+  .overlay a {
+    font-size: 22px;
+  }
+  .overlay .closebtn {
+    top: -20px;
+    right: 20px;
+  }
+  .main-heading {
+    font-size: 22px;
+    padding: 110px 0px 40px;
+  }
+  .myBook {
+    text-align: center;
+  }
+  .docSlider-button{
+    width: 3vw;
+    height: 3vw;
+    margin: 4.5vw 0;
+  }
+  .docSlider-pager{
+    right: 3.5vw;
+  }
+  .docSlider-button:hover:before{
+    display: none;
+  }
+  .myBook img{
+    width: 200px;
+  }
+  .myBook p{
+    line-height: 1.5;
+  }
+  .docSlider-id_Contact .footer{
+    bottom: auto;
+  }
+  .py-80{
+    padding: 0;
+  }
+  .counseling .form-group{
+    margin-bottom: 10px;
+  }
+  .btn-paypal{
+    font-size: 21px;
+  }
+  .btn-paypal{
+    margin: 10px 40px;
+  }
+  .astrology .card img{
+    width: 50px;
+  }
+}
+
+@media (max-width: 375.98px) {
+  
+  .main-heading {
+    font-size: 18px;
+  }
+  .btn-paypal {
+    font-size: 18px;
+    margin: 10px;
+  }
+  .btn-buy {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 75vw;
+  }
+  .container-2 {
+    max-width: 85vw;
+  }
+  img {
+    width: 100vw;
+  }
+  /*----------Nav bar-------------*/
+  .nav-heading {
+    font-size: 3vw;
+    transition: all 0.5s ease-in-out;
+  }
+  .nav-toggle {
+    font-size: 2.1vw;
+    transition: all 0.5s ease-in-out;
+  }
+  .overlay .closebtn {
+    font-size: 4vw;
+    right: 1vw;
+  }
+  .overlay a {
+    padding: 1.5vw 0vw;
+  }
+  /*----------/Nav bar-------------*/
+  /*----------Cover-------------*/
+
+  .cover-section h1 {
+    font-size: 8vw;
+  }
+  .cover-section h6 {
+    font-size: 1.5vw;
+  }
+  /*----------/Cover-------------*/
+  /*----------foter-------------*/
+
+  .cover-section-foter p,
+  .footer p,
+  .footer-2 p {
+    font-size: 1vw;
+  }
+  /*----------/foter-------------*/
+  /*----------side_bar-------------*/
+  .overlay a {
+    font-size: 2.3vw;
+  }
+  /*----------/side_bar-------------*/
+  /*----------Astrology-------------*/
+  .main-heading {
+    font-size: 2.2vw;
+    padding: 8vw 0px 4vw;
+  }
+  .astrology .card h3 {
+    font-size: 1.4vw;
+  }
+  .astrology .card h6 {
+    font-size: 1.4vw;
+  }
+  .astrology .card p.card-text {
+    font-size: 1vw;
+    line-height: 1.6;
+  }
+  .astrology .card a {
+    font-size: 1.1vw;
+  }
+  .astrology .card-body {
+    padding: 1.5vw;
+  }
+  .slick-slide {
+    margin: 0vw 1vw;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 2vw !important;
+    color: #f89200 !important;
+  }
+  .slick-prev,
+  .slick-next {
+    top: 100% !important;
+    z-index: 9;
+    transform: translate(0, 40%) !important;
+  }
+  .slick-next {
+    right: 4vw !important;
+  }
+  .slick-prev {
+    left: auto !important;
+    right: 6vw !important;
+  }
+  /*----------/Astrology-------------*/
+  /*----------counseling-------------*/
+  .form-control {
+    font-size: 1.2vw;
+  }
+  .form-focus .form-control {
+    height: 50px;
+    padding: 3vw 0.5vw 1.5vw;
+  }
+  .form-focus .focus-label {
+    font-size: 1vw;
+    padding: 0vw 0vw 1.5vw;
+  }
+  .form-focus .form-control:focus ~ .focus-label,
+  .form-focus .form-control:-webkit-autofill ~ .focus-label {
+    font-size: 0.7vw;
+  }
+  .h5,
+  h5 {
+    font-size: 1.3vw;
+  }
+  .doller-rs h2 {
+    font-size: 5vw;
+  }
+  .btn-paypal {
+    font-size: 1.3vw;
+    border-radius: 5vw;
+    padding: 0.3vw 4vw;
+    margin: 2vw 1vw 1vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .btn-paypal img {
+    width: 10vw;
+  }
+  .counseling .form-group {
+    margin-bottom: 2.5vw;
+  }
+  /*----------/counseling-------------*/
+  /*----------My_Book-------------*/
+  .myBook h1 {
+    font-size: 4vw;
+  }
+  .myBook p {
+    font-size: 1.1vw;
+  }
+  .btn-buy {
+    font-size: 1.5vw;
+  }
+  .myBook img{
+    width: auto;
+  }
+  /*----------/My_Book-------------*/
+  /*----------Press Release-------------*/
+  .pressRelease .back-brown p {
+    font-size: 1.2vw;
+  }
+  .pressRelease figure img {
+    height: 15vw;
+  }
+  .pressRelease .slick-prev,
+  .pressRelease .slick-next {
+    top: 100% !important;
+    z-index: 9;
+    transform: translate(0, 80%) !important;
+  }
+  .pressRelease .slick-next {
+    right: 1vw !important;
+  }
+  .pressRelease .slick-prev {
+    left: auto !important;
+    right: 3.5vw !important;
+  }
+  /*----------/Press Release-------------*/
+  /*----------About Us-------------*/
+  .about-history .year-tag {
+    font-size: 3.5vw;
+  }
+  .about-history .paragraph-section {
+    font-size: 1.2vw;
+  }
+  /*----------/About Us-------------*/
+
+  /*----------Contact Us-------------*/
+  .contact .card .cardImg {
+    height: 10vw;
+  }
+  h3.card-title {
+    font-size: 1.4vw;
+  }
+  h5.card-title {
+    font-size: 1vw;
+  }
+  h6.card-text {
+    font-size: 0.7vw;
+    margin-bottom: 0px;
+  }
+  p.card-text {
+    font-size: 0.8vw;
+    margin-bottom: 5px;
+  }
+  .contact .card {
+    height: 25vw;
+  }
+  .btn-floating img {
+    width: 50%;
+    height: 100%;
+    /* line-height: 90px; */
+    display: block;
+    margin: auto auto;
+  }
+  .btn-fb img {
+    width: 0.7vw;
+  }
+  /*----------/Contact Us-------------*/
+}
+@media (max-height: 700.98px) {
+  
+  .counseling .form-group {
+    margin-bottom: 0.5vw;
+  }
+  .myBook img {
+    width: 180px;
+  }
+  .doller-rs h2 {
+    font-size: 2vw;
+  }
+  .counseling img {
+    width: 100px;
+  }
+  .btn-paypal{
+    margin: 1vw;
+  }
+}

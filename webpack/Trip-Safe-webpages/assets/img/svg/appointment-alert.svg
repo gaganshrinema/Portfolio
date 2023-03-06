@@ -1,0 +1,10 @@
+<svg id="appointment-alert" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.016" y1="0.016" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f858a2"/>
+      <stop offset="1" stop-color="#fe585c"/>
+    </linearGradient>
+  </defs>
+  <path id="_39718746-Woman-doctor-standing-with-folder-at-hospital-Stock-Photo-doctor-nurse-female" data-name="39718746-Woman-doctor-standing-with-folder-at-hospital-Stock-Photo-doctor-nurse-female" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  <path id="_007-first-aid-kit" data-name="007-first-aid-kit" d="M6.943,10.167V8.7H5.479a.586.586,0,1,1,0-1.172H6.943V6.066a.586.586,0,0,1,1.172,0V7.53H9.58a.586.586,0,1,1,0,1.172H8.115v1.465a.586.586,0,1,1-1.172,0ZM13.828,7.53V4.718a1.173,1.173,0,0,0-1.172-1.172H2.344A1.173,1.173,0,0,0,1.172,4.718V7.53H3.135a.586.586,0,0,1,0,1.172H1.172v2.842a1.173,1.173,0,0,0,1.172,1.172H12.656a1.173,1.173,0,0,0,1.172-1.172v-.5a.586.586,0,1,1,1.172,0v.5a2.346,2.346,0,0,1-2.344,2.344H2.344A2.346,2.346,0,0,1,0,11.544V4.718A2.346,2.346,0,0,1,2.344,2.374H4.865V1.61A1.612,1.612,0,0,1,6.476,0H8.524a1.612,1.612,0,0,1,1.61,1.61v.764h2.522A2.346,2.346,0,0,1,15,4.718v3.4a.587.587,0,0,1-.7.574.59.59,0,0,1-.117.012H11.924a.586.586,0,1,1,0-1.172h1.9ZM6.037,2.374H8.963V1.61a.439.439,0,0,0-.438-.438H6.476a.439.439,0,0,0-.438.438Zm0,0" transform="translate(7.5 8.25)" fill="#fff"/>
+</svg>

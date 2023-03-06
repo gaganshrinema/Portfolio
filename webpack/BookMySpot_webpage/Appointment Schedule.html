@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Appointment Schedule</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="assets/css/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome/css/all.min.css">
+
+    <!-- Favicons -->
+    <link type="image/x-icon" href="assets/img/favicon.png" rel="icon">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="col-md-10">
+                <nav class="navbar navbar-expand-lg header-nav">
+                    <div class="navbar-header">
+                        <a id="mobile_btn" href="javascript:void(0);">
+                            <span class="bar-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            </span>
+                        </a>
+                        <a href="index.html" class="navbar-brand logo">
+                            <img src="assets/img/svg/logo.svg" class="img-fluid" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="main-menu-wrapper">
+                        <div class="menu-header">
+                            <a href="index.html" class="menu-logo">
+                                <img src="assets/img/svg/logo.svg" class="img-fluid" alt="Logo">
+                            </a>
+                            <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                                <i class="fas fa-times"></i>
+                            </a>
+                        </div>
+                        <ul class="main-nav">
+                            <li class="active">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">Store location <i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="store-location.html">Store Location</a></li>
+                                    <li><a href="store-services-detail.html">Store Services Detail</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">Booking <i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="Time Slots booking.html">Time Slot booking</a></li>
+                                    <li><a href="Appointment Schedule.html">Book Appointment</a></li>
+                                    <li><a href="Current Booking.html">Curent Booking</a></li>
+                                    <li><a href="Previous Booking.html">Previous Booking</a></li>
+                                    <li><a href="reviews.html">Rating</a></li>
+                                    <li><a href="chat.html">Chat</a></li>
+                                    <li><a href="voice-call.html">Voice call</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Admin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="nav header-navbar-rht">
+
+                        <!-- User Menu -->
+                        <li class="nav-item dropdown has-arrow logged-item">
+                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                <span class="user-img">
+                                <img class="rounded-circle" src="assets/img/1.jpg" width="31" alt="Darren Elder">
+                            </span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="user-header">
+                                    <div class="avatar avatar-sm">
+                                        <img src="assets/img/1.jpg" alt="User Image" class="avatar-img rounded-circle">
+                                    </div>
+                                    <div class="user-text">
+                                        <h6>Darren Elder</h6>
+                                        <p class="text-muted mb-0">store</p>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item" href="store-dashboard.html">Dashboard</a>
+                                <a class="dropdown-item" href="store-profile-settings.html">Profile Settings</a>
+                                <a class="dropdown-item" href="login.html">Logout</a>
+                            </div>
+                        </li>
+                        <!-- /User Menu -->
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- /Header -->
+        <!-- Breadcrumb -->
+        <div class="breadcrumb-bar">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-10 col-12">
+                        <nav aria-label="breadcrumb" class="page-breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home </a></li>
+                                <li class="breadcrumb-item"><a href="index.html">Category</a></li>
+                                <li class="breadcrumb-item active"><a href="Appointment Schedule.html">Men's Saloon</a></li>
+                            </ol>
+                        </nav>
+                        <h2 class="breadcrumb-title">Appointment Schedule </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Breadcrumb -->
+
+        <!-- Page Content -->
+        <div class="content">
+            <div class="My-container">
+
+                <div class="row">
+
+                    <!-- Sidebar -->
+                    <div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img src="assets/img/svg/calander.svg" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Sidebar -->
+
+                    <div class="col-md-7 col-lg-8 col-xl-9">
+                        <div class="card">
+                            <div class="card-body pt-0">
+
+                                <!-- Tab Menu -->
+                                <nav class="user-tabs mb-4">
+                                    <ul class="nav nav-tabs nav-tabs-bottom nav-justified">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#pat_appointments" data-toggle="tab">Appointments</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#pat_prescriptions" data-toggle="tab">Prescriptions</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#pat_medical_records" data-toggle="tab"><span
+                                                    class="med-records"></span></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <!-- /Tab Menu -->
+
+                                <!-- Tab Content -->
+                                <div class="tab-content pt-0">
+
+                                    <!-- Browse Services Tab -->
+                                    <div id="pat_appointments" class="tab-pane fade show active">
+                                        <div class="date-appointment">
+                                            <h4>Selected date: <span class="text-green">29.05.2020</span></h4>
+                                            <h5> <span class="text-green"> 1 </span> Appointment</h5>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="store-widget align-items-center">
+                                                    <div class="doc-info-left">
+                                                        <div class="store-img">
+                                                            <img src="assets/img/02.jpg" class="img-fluid" alt="User Image">
+                                                        </div>
+                                                        <div class="doc-info-cont">
+                                                            <h4 class="doc-name">Hairstyle</h4>
+                                                            <h5>Duration:
+                                                                <spn class="text-green">50 mins</spn>
+                                                            </h5>
+                                                            <p>
+                                                                Aromatherapy, or essential oils therapy, is using a plant's aroma-producing oils to treat disease. Essential oils are taken from a plant's flowers, leaves, stalks, bark, rind, or roots. Practitioners of aromatherapy believe that fragrances in the oils
+                                                                stimulate nerves in the nose. Those nerves send impulses to the part of the brain that controls memory and emotion.
+                                                            </p>
+                                                            <div class="proceed-btn">
+                                                                <a href="#" class="btn btn-primary submit-btn">Make in
+                                                                    Appointment</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="store-widget align-items-center">
+                                                    <div class="doc-info-left">
+                                                        <div class="store-img">
+                                                            <img src="assets/img/02.jpg" class="img-fluid" alt="User Image">
+                                                        </div>
+                                                        <div class="doc-info-cont appointment-schedule">
+                                                            <h4 class="doc-name">Hairstyle</h4>
+                                                            <h5>Duration:
+                                                                <spn class="text-green">50 mins</spn>
+                                                            </h5>
+                                                            <p>
+                                                                Aromatherapy, or essential oils therapy, is using a plant's aroma-producing oils to treat disease. Essential oils are taken from a plant's flowers, leaves, stalks, bark, rind, or roots. Practitioners of aromatherapy believe that fragrances in the oils
+                                                                stimulate nerves in the nose. Those nerves send impulses to the part of the brain that controls memory and emotion.
+                                                            </p>
+                                                            <div class="dropdown">
+                                                                <a class="btn appointment-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                    Amanda Cheng
+                                                                </a>
+                                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                                    <a class="dropdown-item" href="#">Amanda Cheng</a>
+                                                                    <a class="dropdown-item" href="#">Amanda Cheng 2</a>
+                                                                    <a class="dropdown-item" href="#">Amanda Cheng 3</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="schedule-cont px-1">
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+
+                                                                        <!-- Time Slot -->
+                                                                        <div class="time-slot">
+                                                                            <ul class="clearfix">
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>9:00</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>9:30</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>10:00</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>10:30</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>11:00</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>11:30</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>12:00</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>01:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>01:30</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>02:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-red-active" href="#">
+                                                                                        <span>02:30</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-red-active" href="#">
+                                                                                        <span>03:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-red-active" href="#">
+                                                                                        <span>03:30</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>0 4:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing green-active" href="#">
+                                                                                        <span>04:30</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>05:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>05:30</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>06:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+
+                                                                            </ul>
+                                                                        </div>
+                                                                        <!-- /Time Slot -->
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="proceed-btn mt-3">
+                                                                    <a href="#" class="btn btn-primary submit-btn">Book Slot</a>
+                                                                    <a href="#" class="btn btn-danger submit-btn">Cancel</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="store-widget align-items-center">
+                                                    <div class="doc-info-left">
+                                                        <div class="store-img">
+                                                            <img src="assets/img/02.jpg" class="img-fluid" alt="User Image">
+                                                        </div>
+                                                        <div class="doc-info-cont appointment-schedule">
+                                                            <h4 class="doc-name">Hairstyle</h4>
+                                                            <h5>Duration:
+                                                                <spn class="text-green">50 mins</spn>
+                                                            </h5>
+                                                            <p>
+                                                                Aromatherapy, or essential oils therapy, is using a plant's aroma-producing oils to treat disease. Essential oils are taken from a plant's flowers, leaves, stalks, bark, rind, or roots. Practitioners of aromatherapy believe that fragrances in the oils
+                                                                stimulate nerves in the nose. Those nerves send impulses to the part of the brain that controls memory and emotion.
+                                                            </p>
+                                                            <div class="timeinout">
+                                                                <div class="timeStart"> Start Time - 17:00 </div>
+                                                                <div class="timeOut"> End Time - 18:00 </div>
+                                                            </div>
+                                                            <div class="proceed-btn mt-3">
+                                                                <a href="Appointment-schedule-table.html" class="btn btn-primary submit-btn">checkout</a>
+                                                                <a href="#" class="btn btn-danger submit-btn">Cancel
+                                                                    Appointment</a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /Browse Services Tab -->
+
+                                    <!-- Prescription Tab -->
+                                    <div class="tab-pane fade" id="pat_prescriptions">
+                                        <div class="date-appointment">
+                                            <h4>Selected date: <span class="text-green">29.05.2020</span></h4>
+                                            <h5> <span class="text-green"> 2 </span> Appointment</h5>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="store-widget align-items-center">
+                                                    <div class="doc-info-left">
+                                                        <div class="store-img">
+                                                            <img src="assets/img/02.jpg" class="img-fluid" alt="User Image">
+                                                        </div>
+                                                        <div class="doc-info-cont">
+                                                            <h4 class="doc-name">Hairstyle</h4>
+                                                            <h5>Duration:
+                                                                <spn class="text-green">50 mins</spn>
+                                                            </h5>
+                                                            <p>
+                                                                Aromatherapy, or essential oils therapy, is using a plant's aroma-producing oils to treat disease. Essential oils are taken from a plant's flowers, leaves, stalks, bark, rind, or roots. Practitioners of aromatherapy believe that fragrances in the oils
+                                                                stimulate nerves in the nose. Those nerves send impulses to the part of the brain that controls memory and emotion.
+                                                            </p>
+                                                            <div class="proceed-btn">
+                                                                <a href="#" class="btn btn-primary submit-btn">Make in
+                                                                    Appointment</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="store-widget align-items-center">
+                                                    <div class="doc-info-left">
+                                                        <div class="store-img">
+                                                            <img src="assets/img/02.jpg" class="img-fluid" alt="User Image">
+                                                        </div>
+                                                        <div class="doc-info-cont appointment-schedule">
+                                                            <h4 class="doc-name">Hairstyle</h4>
+                                                            <h5>Duration:
+                                                                <spn class="text-green">50 mins</spn>
+                                                            </h5>
+                                                            <p>
+                                                                Aromatherapy, or essential oils therapy, is using a plant's aroma-producing oils to treat disease. Essential oils are taken from a plant's flowers, leaves, stalks, bark, rind, or roots. Practitioners of aromatherapy believe that fragrances in the oils
+                                                                stimulate nerves in the nose. Those nerves send impulses to the part of the brain that controls memory and emotion.
+                                                            </p>
+                                                            <div class="dropdown">
+                                                                <a class="btn appointment-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                    Amanda Cheng
+                                                                </a>
+                                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                                    <a class="dropdown-item" href="#">Amanda Cheng</a>
+                                                                    <a class="dropdown-item" href="#">Amanda Cheng 2</a>
+                                                                    <a class="dropdown-item" href="#">Amanda Cheng 3</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="schedule-cont px-1">
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+
+                                                                        <!-- Time Slot -->
+                                                                        <div class="time-slot">
+                                                                            <ul class="clearfix">
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>9:00</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>9:30</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>10:00</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>10:30</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>11:00</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>11:30</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>12:00</span>
+                                                                                        <span>AM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>01:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>01:30</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing" href="#">
+                                                                                        <span>02:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-red-active" href="#">
+                                                                                        <span>02:30</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-red-active" href="#">
+                                                                                        <span>03:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-red-active" href="#">
+                                                                                        <span>03:30</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>0 4:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing green-active" href="#">
+                                                                                        <span>04:30</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>05:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>05:30</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a class="timing light-grey-active" href="#">
+                                                                                        <span>06:00</span>
+                                                                                        <span>PM</span>
+                                                                                    </a>
+                                                                                </li>
+
+                                                                            </ul>
+                                                                        </div>
+                                                                        <!-- /Time Slot -->
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="proceed-btn mt-3">
+                                                                    <a href="#" class="btn btn-primary submit-btn">Book Slot</a>
+                                                                    <a href="#" class="btn btn-danger submit-btn">Cancel</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="store-widget align-items-center">
+                                                    <div class="doc-info-left">
+                                                        <div class="store-img">
+                                                            <img src="assets/img/02.jpg" class="img-fluid" alt="User Image">
+                                                        </div>
+                                                        <div class="doc-info-cont appointment-schedule">
+                                                            <h4 class="doc-name">Hairstyle</h4>
+                                                            <h5>Duration:
+                                                                <spn class="text-green">50 mins</spn>
+                                                            </h5>
+                                                            <p>
+                                                                Aromatherapy, or essential oils therapy, is using a plant's aroma-producing oils to treat disease. Essential oils are taken from a plant's flowers, leaves, stalks, bark, rind, or roots. Practitioners of aromatherapy believe that fragrances in the oils
+                                                                stimulate nerves in the nose. Those nerves send impulses to the part of the brain that controls memory and emotion.
+                                                            </p>
+                                                            <div class="timeinout">
+                                                                <div class="timeStart"> Start Time - 17:00 </div>
+                                                                <div class="timeOut"> End Time - 18:00 </div>
+                                                            </div>
+                                                            <div class="proceed-btn mt-3">
+                                                                <a href="Appointment-schedule-table.html" class="btn btn-primary submit-btn">checkout</a>
+                                                                <a href="#" class="btn btn-danger submit-btn">Cancel
+                                                                    Appointment</a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /Prescription Tab -->
+                                </div>
+                                <!-- Tab Content -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /Page Content -->
+    </div>
+    <!-- /Main Wrapper -->
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Core JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

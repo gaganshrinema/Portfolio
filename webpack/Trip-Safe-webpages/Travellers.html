@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Travellers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="assets/css/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome/css/all.min.css">
+
+  <!-- Favicons -->
+  <link type="image/x-icon" href="assets/img/favicon.png" rel="icon">
+
+  <!-- custom scrollbar stylesheet -->
+  <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body class="dashboard-page mCustomScrollbar">
+  <!-- Side-Notification -->
+  <div id="mySidenav" class="Side-Notification">
+    <div class="note-heading">
+      <span>Notifications</span>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img
+          src="assets/img/svg/Close-Notification.svg"></a>
+    </div>
+    <ul class="list-unstyled px-4">
+      <li class="media">
+        <img src="assets/img/svg/alert.svg" class="mr-3">
+        <div class="media-body">
+          <p>8:30pm</p>
+          <h6 class="mt-0 mb-1">One person has been tested positive for Covid-19 in your area. Please stay safe.<a
+              href="#" class="text-Blue">Read More</a></h6>
+        </div>
+      </li>
+      <hr />
+      <li class="media">
+        <img src="assets/img/svg/alert.svg" class="mr-3">
+        <div class="media-body">
+          <p>9:30pm</p>
+          <h6 class="mt-0 mb-1">You’re Advised that at Rock Gym on 12 May, 2020. 1 Person has been confirmed positive.
+            We advice to get tested.</h6>
+        </div>
+      </li>
+      <hr />
+      <li class="media">
+        <img src="assets/img/svg/lab-report.svg" class="mr-3">
+        <div class="media-body">
+          <p>Yesterday</p>
+          <h6 class="mt-0 mb-1">Omega Laboratory & Services has uploaded your Covid-19 Swab sample test result.</h6>
+        </div>
+      </li>
+      <hr />
+      <li class="media">
+        <img src="assets/img/svg/appointment-alert.svg" class="mr-3">
+        <div class="media-body">
+          <p>Monday</p>
+          <h6 class="mt-0 mb-1">Your appointment with Doctor James Fernandes has been scheduled for Thursday, May 15,
+            2020.</h6>
+        </div>
+      </li>
+      <hr />
+      <li class="media">
+        <img src="assets/img/svg/General-alert.svg" class="mr-3">
+        <div class="media-body">
+          <p>Sep 30</p>
+          <h6 class="mt-0 mb-1">Et iusto consequatur repellat. Totam quasi repudiandae ipsa voluptates esseesse voluptas
+            ut..</h6>
+        </div>
+      </li>
+    </ul>
+
+
+  </div>
+  <!-- /Side-Notification -->
+  <!-- Main Wrapper -->
+  <div class="main-wrapper">
+    <div class="box-sidebar mCustomScrollbar">
+      <ul>
+        <li>
+          <div class="menu-img">
+            <img src="assets/img/svg/icon.svg">
+          </div>
+        </li>
+        <li>
+          <a href="dashboard.html">
+            <div class="menu-img">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                <path id="Dashboard"
+                  d="M3233.732,283.728l0,0-1.4-1.147v-3.244a.833.833,0,0,0-.832-.833h-.833a.833.833,0,0,0-.834.833v1.2l-5.268-4.31,0,0a.809.809,0,0,0-1.123,0l0,0-9.169,7.5,0,0a.829.829,0,0,0,.566,1.439h.834v9.166a1.665,1.665,0,0,0,1.666,1.667h13.333a1.665,1.665,0,0,0,1.665-1.667v-9.166h.834a.829.829,0,0,0,.566-1.439Zm-3.9,9.772H3226.5v-6.667h3.333Z"
+                  transform="translate(-3213.999 -276)" fill="#fff" />
+              </svg>
+            </div>
+            <div class="menuText">Dashboard</div>
+          </a>
+        </li>
+        <li>
+          <a href="Travellers.html">
+            <div class="menu-img active">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15.999" viewBox="0 0 20 15.999">
+                <path id="Travellers"
+                  d="M3230,377.67v.859c.667,1.8,4,1.138,4,4.471h-10.666c0-3.333,3.333-2.667,4-4.471v-.85c-2.415,0-3.084-.994-3.084-.994,1.261-1.05-1.123-8.351,3.171-8.351a2.025,2.025,0,0,1,1.33-.667c5.25,0,2.881,7.928,4.24,9.044C3232.989,376.71,3232.427,377.67,3230,377.67Zm-6.753-3.3a3.482,3.482,0,0,1-1.247,1.968v1.334c.317.954,1.394,1,2.432,1.362A4.138,4.138,0,0,0,3222,383h-8c0-5.332,4-3.333,4.667-5.332v-1.334a3.479,3.479,0,0,1-1.248-1.968c-.237-.018-.607-.235-.717-1.09a.781.781,0,0,1,.317-.8c-.729-2.894-.358-5.413,3.276-5.476a2.15,2.15,0,0,1,1.881.68,1.924,1.924,0,0,1,1.676,1.769,11.41,11.41,0,0,0-.509,3.9A6.882,6.882,0,0,1,3223.247,374.365Z"
+                  transform="translate(-3213.999 -367)" fill="#fff" />
+              </svg>
+            </div>
+            <div class="menuText">Travellers</div>
+          </a>
+        </li>
+        <li>
+          <a href="suppliers.html">
+            <div class="menu-img">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18.723" height="16.52" viewBox="0 0 18.723 16.52">
+                <path id="Suppliers"
+                  d="M3100.419-5467.48V-5480.7h1.156a2.151,2.151,0,0,1,2.148,2.148v8.92a2.151,2.151,0,0,1-2.148,2.147Zm-11.013,0V-5480.7h2.128l.516-2.323a1.245,1.245,0,0,1,1.224-.981h2.177a1.244,1.244,0,0,1,1.222.981l.516,2.323h2.129v13.215Zm1.1-4.038a1.838,1.838,0,0,0,1.836,1.836,1.838,1.838,0,0,0,1.834-1.836,1.838,1.838,0,0,0-1.834-1.836A1.839,1.839,0,0,0,3090.507-5471.519Zm2.554-5.831.826,3.2,4.265-1.1-.826-3.2Zm.063-5.431-.462,2.085h3.4l-.464-2.083a.15.15,0,0,0-.147-.12h-2.177A.152.152,0,0,0,3093.125-5482.781Zm-5.976,15.3a2.15,2.15,0,0,1-2.148-2.147v-8.92a2.15,2.15,0,0,1,2.148-2.148h1.156v13.215Zm4.67-4.056a.5.5,0,0,1,.5-.5.5.5,0,0,1,.5.5.5.5,0,0,1-.5.5A.5.5,0,0,1,3091.818-5471.536Zm2.581-5.024,2.133-.55.274,1.066-2.132.551Zm3.816-5.237v-1.1h3.3v1.1Zm-11.013,0v-1.1h3.3v1.1Z"
+                  transform="translate(-3085 5484)" fill="#fff" />
+              </svg>
+            </div>
+            <div class="menuText">Suppliers</div>
+          </a>
+        </li>
+        <li>
+          <a href="doctors.html">
+            <div class="menu-img">
+              <svg xmlns="http://www.w3.org/2000/svg" width="19.397" height="22.45" viewBox="0 0 19.397 22.45">
+                <path id="Doctors"
+                  d="M3085.023-5467.058a.179.179,0,0,1,0-.178,11.13,11.13,0,0,1,6.323-5,.176.176,0,0,1,.175.043,22.73,22.73,0,0,0,3.181,2.413,18.255,18.255,0,0,0,3.174-2.413.175.175,0,0,1,.175-.043,11.13,11.13,0,0,1,6.323,5,.179.179,0,0,1,0,.178,11.243,11.243,0,0,1-9.674,5.508A11.243,11.243,0,0,1,3085.023-5467.058Zm11.078.073v1.058a.174.174,0,0,0,.177.171h1.24a.169.169,0,0,1,.162.18v1.229a.182.182,0,0,0,.188.169h1.067a.15.15,0,0,0,.149-.169v-1.229a.2.2,0,0,1,.2-.18h1.188a.185.185,0,0,0,.19-.171v-1.054a.191.191,0,0,0-.19-.179h-1.2a.186.186,0,0,1-.19-.172v-1.235a.161.161,0,0,0-.161-.172h-1.055a.184.184,0,0,0-.187.172v1.23a.165.165,0,0,1-.162.176h-1.24A.178.178,0,0,0,3096.1-5466.985Zm-5.79-10.355v-2.272A4.392,4.392,0,0,1,3094.7-5484a4.392,4.392,0,0,1,4.386,4.388v2.272a4.392,4.392,0,0,1-4.386,4.388A4.392,4.392,0,0,1,3090.311-5477.34Z"
+                  transform="translate(-3085 5484)" fill="#fff" />
+              </svg>
+            </div>
+            <div class="menuText">Doctors</div>
+          </a>
+        </li>
+        <li>
+          <a href="reports.html">
+            <div class="menu-img">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18.487" height="19.199" viewBox="0 0 18.487 19.199">
+                <path id="Reports"
+                  d="M3224.233,630.414l9.243,3.556V636.1l-9.243,3.554-9.243-3.554V633.97Zm9.243,14.222v1.422l-9.243,3.555-9.243-3.555v-1.422l1.848-.711,7.395,2.844,7.395-2.844Zm0-4.978v1.422l-9.243,3.556-9.243-3.556v-1.422l1.848-.711,7.395,2.844,7.395-2.844Z"
+                  transform="translate(-3214.99 -630.414)" fill="#fff" />
+              </svg>
+            </div>
+            <div class="menuText">Reports</div>
+          </a>
+        </li>
+        <li>
+          <a href="account.html">
+            <div class="menu-img">
+              <svg xmlns="http://www.w3.org/2000/svg" width="19.057" height="19.057" viewBox="0 0 19.057 19.057">
+                <path id="settings"
+                  d="M18.608,7.359,17.144,7.04A7.972,7.972,0,0,0,16.672,5.9l.811-1.261a.57.57,0,0,0-.076-.711L15.125,1.65a.57.57,0,0,0-.711-.076l-1.261.811a7.971,7.971,0,0,0-1.137-.471L11.7.448A.569.569,0,0,0,11.142,0H7.915a.569.569,0,0,0-.556.448L7.04,1.913A7.971,7.971,0,0,0,5.9,2.384L4.642,1.574a.57.57,0,0,0-.711.076L1.65,3.932a.57.57,0,0,0-.076.711L2.384,5.9A7.971,7.971,0,0,0,1.913,7.04L.448,7.359A.57.57,0,0,0,0,7.915v3.227a.57.57,0,0,0,.448.556l1.465.318a7.971,7.971,0,0,0,.471,1.137l-.811,1.261a.57.57,0,0,0,.076.711l2.282,2.282a.57.57,0,0,0,.711.076L5.9,16.672a7.972,7.972,0,0,0,1.137.471l.318,1.465a.569.569,0,0,0,.556.448h3.227a.569.569,0,0,0,.556-.448l.318-1.465a7.972,7.972,0,0,0,1.137-.471l1.261.811a.569.569,0,0,0,.711-.076l2.282-2.282a.57.57,0,0,0,.076-.711l-.811-1.261a7.972,7.972,0,0,0,.471-1.137l1.465-.318a.57.57,0,0,0,.448-.556V7.915A.57.57,0,0,0,18.608,7.359Zm-5.663,2.17A3.417,3.417,0,1,1,9.528,6.112,3.42,3.42,0,0,1,12.945,9.528Zm0,0"
+                  fill="#fff" />
+              </svg>
+            </div>
+            <div class="menuText">My Account</div>
+          </a>
+        </li>
+        <li class="mt-5">
+          <a href="help.html">
+            <div class="menu-img">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13.146" height="19.213" viewBox="0 0 13.146 19.213">
+                <path id="help" d="M3217.976,900.068l10.618-4.045v1.643l-8.848,3.414,1.643,1.137,9.733-3.793v12.513l-9.733,4.3-3.413-2.528Zm8.541,9.624a1.483,1.483,0,0,0-.907,1.262c0,.5.406.749.907.554a1.485,1.485,0,0,0,.909-1.263C3227.425,909.743,3227.019,909.495,3226.516,909.691Zm.182-7.336a4.63,4.63,0,0,0-2.906,3.859v.363l1.816-.709v-.544a1.783,1.783,0,0,1,1.089-1.515c.6-.234,1.091.063,1.091.664,0,.263,0,.363-.727,1.373-.364.5-1.453,1.692-1.453,2.928v.545l1.816-.708v-.726a2.663,2.663,0,0,1,1.09-1.878,3.466,3.466,0,0,0,1.089-2.241C3229.6,902.259,3228.3,901.729,3226.7,902.355Z" transform="translate(-3217.976 -896.023)" fill="#fff"/>
+              </svg>
+            </div>
+            <div class="menuText">help</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="main-rightwrapper">
+      <div class="box-topheader row">
+        <div class="headerSubleft col-md-6">
+          <h2>Travellers</h2>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="dashboard.html">Tripsafe</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Travellers</li>
+          </ol>
+        </div>
+        <div class="headerSubright col-md-6">
+          <div>
+            <button class="btn notification dropdown-toggle" onclick="openNav()" type="button">
+              <span>03</span>
+            </button>
+          </div>
+          <div class="dropdown">
+            <button class="btn user-profile dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span><img src="assets/img/svg/Avatar.png"> <span>Candra Stewart</span> </span><span><img
+                  src="assets/img/svg/Combined Shape.svg"></span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-headheading row pb-3">
+        <div class="headSubleft col-md-6">
+          <h5>Ryan’s Bar Statistics</h5>
+        </div>
+        <!-- <div class="headSubright col-md-6">
+
+          <span><img src="assets/img/svg/refresh.svg">Refresh</span>
+          <span><img src="assets/img/svg/time-update.svg"><em>Last Updated :</em> 25-06-2019 00:00:00</span>
+        </div> -->
+      </div>
+      <!-- search-block -->
+      <section class="travellers-search">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-3 col-6">
+              <input type="email" class="form-control" placeholder="Search by Full Name">
+            </div>
+            <div class="form-group col-md-3 col-6">
+              <input type="email" class="form-control" placeholder="Search by ID Number">
+            </div>
+            <div class="form-group col-md-3 col-6">
+              <input type="email" class="form-control" placeholder="Search by Email Address">
+            </div>
+            <div class="form-group col-md-3 col-6">
+              <input type="email" class="form-control" placeholder="Search by Mobile Number">
+            </div>
+            <div class="search-btn-section pb-3">
+              <div class="btn-section-left">
+                <a href="Travellers - profile.html" type="submit" class="btn btn-green">Search</a>
+                <button type="submit" class="btn">Clear</button>
+              </div>
+              <div class="btn-section-right">
+                <button type="submit" class="btn btn-blue-line"><span><img src="assets/img/svg/ic.svg"></span>Scan QR
+                  Code</button>
+              </div>
+            </div>
+        </form>
+      </section>
+      <!-- /search-block -->
+      <!-- Table Block -->
+      <section>
+        <div class="table-responsive">
+          <table class="table box-search-table">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">ID Number</th>
+                <th scope="col">Last Update</th>
+                <th scope="col">Email</th>
+                <th scope="col">Mobile</th>
+                <th scope="col"><button class="btn btn-blue"> <span class="pr-2"><img
+                        src="assets/img/svg/add.svg"></span>Add New</button></th>
+              </tr>
+            </thead>
+            <tbody class="box-search-table-scroll mCustomScrollbar">
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-01.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-02.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-03.png"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-04.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-05.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-06.png"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/avatar-01.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-08.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-09.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-10.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-11.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/store-12.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/avatar-02.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/avatar-03.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span><img src="assets/img/profiles/avatar-04.jpg"></span>
+                  <span>John Smith</span>
+                </td>
+                <td>1222ADASD</td>
+                <td>12 May 2020</td>
+                <td>johnsmith@email.com</td>
+                <td>+123 9876 3450</td>
+                <td><img src="assets/img/svg/thre-dot-icon.svg"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tablePagination">
+          <div class="tablePagination-left">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Show 10
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">10</a>
+                <a class="dropdown-item" href="#">15</a>
+                <a class="dropdown-item" href="#">20</a>
+              </div>
+            </div>
+            <span class="text-Lightgrey">Showing 1-10 of 25 entries</span>
+          </div>
+          <div class="tablePagination-right">
+            <nav aria-label="...">
+              <ul class="pagination">
+                <li class="page-item disabled">
+                  <span class="page-link">
+                    < Previous</span>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active" aria-current="page">
+                  <span class="page-link">
+                    2
+                    <span class="sr-only">(current)</span>
+                  </span>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <!-- /Table Block -->
+    </div>
+  </div>
+
+  <!-- /Main Wrapper -->
+
+
+  <!-- jQuery -->
+  <script src="assets/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JS -->
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="assets/js/script.js"></script>
+
+  <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script>
+    (function ($) {
+      $(window).on("load", function () {
+
+        $("#content-1").mCustomScrollbar({
+          theme: "minimal"
+        });
+
+      });
+    })(jQuery);
+  </script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "375px";
+      document.getElementById("body").style.marginRight = "0px";
+      document.body.style.backgroundColor = "rgba(9,24,80,0.7)";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("body").style.marginLeft = "0";
+      document.body.style.backgroundColor = "white";
+    }
+  </script>
+</body>
+
+</html>

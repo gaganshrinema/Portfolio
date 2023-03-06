@@ -1,0 +1,141 @@
+:root {
+    --green: #04ac22;
+    --red: #ff3333;
+    --blue: #3366ff;
+    --dark-blue: #0c0d34;
+    --light-grey: #8f9bb3;
+    --border-grey: #eeeeee;
+    --dark-grey: #222b45;
+    --white: #ffffff;
+    --black: #000000;
+}
+@media only screen and (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1399px) {
+    .img-login-left {
+        max-width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+}
+
+@media only screen and (max-width: 1199px) {
+    .img-vw {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .img-vw {
+        display: none;
+    }
+    .img-logo {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 849.98px) {
+}
+
+@media only screen and (max-width: 767.98px) {
+    .headerSubright {
+        padding: 10px 0;
+    }
+    .headerSubleft,
+    .headerSubright,
+    .headSubleft,
+    .headSubright {
+        text-align: center;
+    }
+    .headerSubright,
+    .breadcrumb {
+        justify-content: center;
+    }
+    .dashblock .box-shadow {
+        margin: 10px 0;
+    }
+    .print-img-section .print-img {
+        width: 50%;
+        text-align: center;
+    }
+    .Help-section .accordion > .card .card-header {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .btn {
+        width: 100%;
+    }
+    .headerSubleft .breadcrumb {
+        display: none;
+    }
+    .dashblock .dash-text {
+        text-align: center;
+        padding: 10px;
+    }
+    .box-statistic .card-title,
+    .box-statistic .card-text,
+    .box-statistic h4 {
+        text-align: center;
+    }
+    .box-statistic h4 {
+        font-size: 18px;
+        border-bottom: 1px solid var(--border-grey);
+        padding-bottom: 10px;
+    }
+    .box-statistic .card-body {
+        padding: 10px;
+    }
+    .page-link {
+        font-size: 12px;
+    }
+    .main-rightwrapper {
+        margin: 10px;
+    }
+    html:hover .box-sidebar {
+        background-color: tomato;
+    }
+    .box-sidebar {
+        display: none;
+    }
+
+    .search-btn-section {
+        padding: 0 10px;
+        flex: 1 1 0;
+    }
+    .suppliers .card .sup-img {
+        margin: auto;
+    }
+    .suppliers .card-body {
+        text-align: center;
+    }
+    .tablePagination {
+        flex-direction: column;
+    }
+    .travellers-search .search-btn-section {
+        flex-direction: column;
+    }
+    table.box-search-table thead tr th,
+    table.box-search-table tbody tr td {
+        min-width: 150px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .print-img-section .print-img {
+        width: 100%;
+        text-align: center;
+    }
+    .print-img-section .print-img a {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 374px) {
+    .tab-detail .nav-pills .nav-item {
+        width: 100%;
+    }
+}

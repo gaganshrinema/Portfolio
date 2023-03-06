@@ -1,0 +1,10 @@
+<svg id="General-alert" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.016" y1="0.016" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3499ff"/>
+      <stop offset="1" stop-color="#3a3985"/>
+    </linearGradient>
+  </defs>
+  <path id="_39718746-Woman-doctor-standing-with-folder-at-hospital-Stock-Photo-doctor-nurse-female" data-name="39718746-Woman-doctor-standing-with-folder-at-hospital-Stock-Photo-doctor-nurse-female" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  <path id="Path_11099" data-name="Path 11099" d="M56.577,11.159a.586.586,0,0,0-1.152.216.586.586,0,0,1-.576.7H45.955a.586.586,0,0,1-.576-.7A6.046,6.046,0,0,1,46.2,9.341,4.635,4.635,0,0,0,47,6.855V5.977a3.412,3.412,0,0,1,3.349-3.4h.111a3.406,3.406,0,0,1,3.337,3.4v.879a4.146,4.146,0,0,0,.589,2.1.586.586,0,1,0,1.031-.558,2.984,2.984,0,0,1-.448-1.538V5.977a4.576,4.576,0,0,0-3.984-4.534V.586a.586.586,0,0,0-1.172,0v.858a4.592,4.592,0,0,0-3.984,4.533v.879a3.533,3.533,0,0,1-.642,1.9,7.12,7.12,0,0,0-.957,2.4,1.758,1.758,0,0,0,1.728,2.083H48.65a1.758,1.758,0,0,0,3.516,0h2.684a1.758,1.758,0,0,0,1.728-2.083Zm-6.169,2.669a.587.587,0,0,1-.586-.586h1.172A.587.587,0,0,1,50.408,13.828Z" transform="translate(-35.197 7.5)" fill="#fff"/>
+</svg>

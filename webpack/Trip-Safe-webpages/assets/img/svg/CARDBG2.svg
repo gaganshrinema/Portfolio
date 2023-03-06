@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="665.365" height="444.52" viewBox="0 0 665.365 444.52">
+  <defs>
+    <filter id="bg" x="0" y="0" width="665.365" height="432.52" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="CARDBG2" transform="translate(-15 -192.482)">
+    <rect id="bg-2" data-name="bg" width="583.365" height="413.52" rx="12" transform="translate(56 223.482)" fill="#fff" opacity="0.5"/>
+    <rect id="bg-3" data-name="bg" width="613.365" height="412.52" rx="12" transform="translate(41 213.482)" fill="#fff" opacity="0.8"/>
+    <g transform="matrix(1, 0, 0, 1, 15, 192.48)" filter="url(#bg)">
+      <rect id="bg-4" data-name="bg" width="647.365" height="414.52" rx="15" transform="translate(9 6)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Book</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+  <link href="assets/dist/css/my-style.css" rel="stylesheet">
+  <link href="assets/dist/css/responsive.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+</head>
+
+<body>
+  <!-- Main Wrapper -->
+  <div class="wrapper-section">
+    <nav class="nav-toggle navbar navigation nav-grey" onclick="openNav()">
+      <span></span>
+      <span class="nav-heading">Ofer Cohen</span>
+      <span>&#9776;</span>
+    </nav>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="Astrology.html">Astrology</a>
+        <a href="Counselling.html">Counselling</a>
+        <a href="My book.html">My book</a>
+        <a href="Press release.html">Press release</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+    </div>
+    <main>
+      <h1 class="text-center w-100 main-heading">My Book</h1>
+      <div class="container back-brown mb-5 shadow-lg">
+        <div class="row justify-content-center py-5 myBook">
+          <div class="col-lg-6">
+            <h1>THE LIGHT</h1>
+            <p>
+              "The Light" is not a story, a theory or a new meditation philosophy. It is a healing, spiritual mantra, an
+              explanation of the source of man's existence and relevance. The source is light and this light is the
+              quintessence of all existence.
+              We are all basically enlightened, only waiting to be awakened. This beautiful exploration helps us
+              discover the truth within. Finding that truth is the key to becoming a witness to one's own being and
+              brings with it an understanding of how we create our own reality and suffering. Ultimate healing can come
+              from the clarity that understanding this message brings.
+              The text can help you unveil your inner light and lead you to deep self-realization and an illumination of
+              your consciousness. Simply reading these truths can set you on the healing path to your natural
+              destination of merging with the source.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <img src="assets/images/book.png" class="jump-2">
+            <a href="#" class="btn btn-buy">Buy this Book<span><img src="assets/images/arrow_next.png"></span></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Copyright © 2020 - Ofer Cohen</p>
+    </footer>
+
+  </div>
+  <!-- /Main Wrapper -->
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+  </script>
+</body>
+
+</html>

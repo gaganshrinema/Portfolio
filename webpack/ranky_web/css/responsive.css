@@ -1,0 +1,34 @@
+@media (max-width: 992px) {}
+@media (max-width: 767px) {
+    .navbar-collapse.collapse.show{
+        background-color: #ffffff;
+    }
+    .box-navbar ul.navbar-nav li a{
+        color: #929292;
+    }
+    .fixed .navbar-collapse.collapse.show{
+        background-color: #ffffff;
+    }
+}
+@media (max-width: 480px) {
+    body{
+        text-align: center;
+    }
+    .navbar-nav li{
+        text-align: left;
+    }
+    img{
+        max-width: 100%;
+    }
+    .have-somthing h2,.get-app h2{
+        font-size: 22px;
+    }
+    .how-it-work span{
+        margin: auto;
+    }
+    .slide-banner-section .slide-text{
+        width: 320px;
+        text-align: center;
+    }
+}
+@media (max-width: 375px) {}
