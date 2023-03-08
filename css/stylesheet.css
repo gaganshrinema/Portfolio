@@ -3908,6 +3908,18 @@ ul.footer_bottom_link li:last-child{
   padding: 120px 0;
 }
 
+.tech-icon {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.tech-icon img {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+}
+
 @media (max-width: 575.98px) {
   .hero-wrap .hero-bg {
     background-attachment: initial !important;
