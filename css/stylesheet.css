@@ -3835,7 +3835,6 @@ ul.footer_bottom_link li:last-child{
 .tech-icon img {
   width: 50px;
   height: 40px;
-  padding: 0 8px;
 }
 
 @media (max-width: 575.98px) {
@@ -3846,5 +3845,10 @@ ul.footer_bottom_link li:last-child{
 
   .logo_section {
     column-count: 1;
+  }
+
+  .tech-icon img {
+    width: auto;
+    height: 25px;
   }
 }
